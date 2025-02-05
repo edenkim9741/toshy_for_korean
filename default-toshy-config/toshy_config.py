@@ -4623,6 +4623,8 @@ if DISTRO_ID == 'ubuntu':
         C("Super-RC-Q"):            C("Super-L"),                   # Lock screen (ubuntu)
         C("Super-Right"):          [bind,C("Super-Page_Up")],       # SL - Change workspace (ubuntu)
         C("Super-Left"):           [bind,C("Super-Page_Down")],     # SL - Change workspace (ubuntu)
+        C("C-Super-Right"):     [bind,C("Super-Right")],
+        C("C-Super-Left"):      [bind,C("Super-Left")], 
     }, when = lambda ctx:
         cnfg.screen_has_focus and
         matchProps(not_clas=remoteStr)(ctx)
