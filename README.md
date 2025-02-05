@@ -2,6 +2,10 @@
 > -- No_Sandwich3888 on Reddit
 
 Yes. Yes, it is. So here are some...
+# Fork for Mac-like Keyboard for Korean
+## differences
+- `CapsLock is Hangul` instead of `CapsLock is cmd`
+- window split shortcut is same as `rectangle` in macos (only for ubuntu)
 
 # ... Quick Links!
 
