@@ -1620,7 +1620,7 @@ multipurpose_modmap("Caps2Esc - Chromebook kbd", {
 
 # [Global GUI conditional modmaps] Change modifier keys as in xmodmap
 modmap("Cond modmap - GUI - Caps2Cmd - not Cbk kdb", {
-    Key.CAPSLOCK:               Key.RIGHT_CTRL,                 # Caps2Cmd
+    Key.CAPSLOCK:               Key.HANGEUL,                 # Caps2Cmd
 }, when = lambda ctx:
     cnfg.Caps2Cmd and
     not isKBtype('Chromebook')(ctx) and

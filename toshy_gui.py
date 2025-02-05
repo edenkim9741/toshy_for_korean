@@ -601,7 +601,7 @@ ST3_in_VSCode_label = tk.Label(
 Caps2Cmd_switch_var = tk.BooleanVar(value=False)
 Caps2Cmd_switch     = ttk.Checkbutton(
     left_column, 
-    text='CapsLock is Cmd key', 
+    text='CapsLock is Hangul key', 
     style='Switch.TCheckbutton', 
     variable=Caps2Cmd_switch_var
 )

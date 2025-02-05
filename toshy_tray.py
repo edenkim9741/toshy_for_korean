@@ -739,7 +739,7 @@ if not barebones_config:
     multi_lang_item.connect('toggled', save_prefs_settings)
     prefs_submenu.append(multi_lang_item)
 
-    Caps2Cmd_item = Gtk.CheckMenuItem(label='CapsLock is Cmd')
+    Caps2Cmd_item = Gtk.CheckMenuItem(label='CapsLock is Hangul')
     Caps2Cmd_item.set_active(cnfg.Caps2Cmd)
     Caps2Cmd_item.connect('toggled', save_prefs_settings)
     prefs_submenu.append(Caps2Cmd_item)
