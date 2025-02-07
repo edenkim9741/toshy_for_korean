@@ -1624,7 +1624,7 @@ modmap("Cond modmap - GUI - Caps2Cmd - not Cbk kdb", {
 }, when = lambda ctx:
     cnfg.Caps2Cmd and
     not isKBtype('Chromebook')(ctx) and
-    matchProps(not_clas=terms_and_remotes_Str)(ctx)
+    matchProps()(ctx)
 )
 modmap("Cond modmap - GUI - Caps2Cmd - Cbk kdb", {
     Key.LEFT_META:              Key.RIGHT_CTRL,                 # Caps2Cmd - Chromebook
